@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="FinancialMarketProgram" Database="" Version="10.0.0">
+  <Project Name="SimpleInterestRate" Path="SimpleInterestRate/SimpleInterestRate.project" Active="No"/>
+  <Project Name="MonthlyCompoundInterest" Path="CompoundInterest/CompoundInterest.project" Active="No"/>
+  <Project Name="CompoundInterest1" Path="test/test.project" Active="No"/>
+  <Project Name="Tests" Path="Tests/Tests.project" Active="No"/>
+  <Project Name="CashFlowModeling" Path="CashFlowModeling/CashFlowModeling.project" Active="No"/>
+  <Project Name="BondModeling" Path="BondModeling/BondModeling.project" Active="No"/>
+  <Project Name="CouponBondValuation" Path="CouponBondValuation/CouponBondValuation.project" Active="No"/>
+  <Project Name="SMA-EMA" Path="SMA-EMA/SMA-EMA.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="SimpleInterestRate" ConfigName="Debug"/>
+      <Project Name="MonthlyCompoundInterest" ConfigName="Debug"/>
+      <Project Name="CompoundInterest1" ConfigName="Debug"/>
+      <Project Name="Tests" ConfigName="Debug"/>
+      <Project Name="CashFlowModeling" ConfigName="Debug"/>
+      <Project Name="BondModeling" ConfigName="Debug"/>
+      <Project Name="CouponBondValuation" ConfigName="Debug"/>
+      <Project Name="SMA-EMA" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="SimpleInterestRate" ConfigName="Release"/>
+      <Project Name="MonthlyCompoundInterest" ConfigName="Release"/>
+      <Project Name="CompoundInterest1" ConfigName="Release"/>
+      <Project Name="Tests" ConfigName="Release"/>
+      <Project Name="CashFlowModeling" ConfigName="Release"/>
+      <Project Name="BondModeling" ConfigName="Release"/>
+      <Project Name="CouponBondValuation" ConfigName="Release"/>
+      <Project Name="SMA-EMA" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
