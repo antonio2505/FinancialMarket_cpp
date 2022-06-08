@@ -7,7 +7,10 @@
   <Project Name="CashFlowModeling" Path="CashFlowModeling/CashFlowModeling.project" Active="No"/>
   <Project Name="BondModeling" Path="BondModeling/BondModeling.project" Active="No"/>
   <Project Name="CouponBondValuation" Path="CouponBondValuation/CouponBondValuation.project" Active="No"/>
-  <Project Name="SMA-EMA" Path="SMA-EMA/SMA-EMA.project" Active="Yes"/>
+  <Project Name="SMA-EMA" Path="SMA-EMA/SMA-EMA.project" Active="No"/>
+  <Project Name="Volatility" Path="Volatility/Volatility.project" Active="No"/>
+  <Project Name="CorrelationTimeSeries" Path="CorrelationTimeSeries/CorrelationTimeSeries.project" Active="No"/>
+  <Project Name="FondamentalAnalyse" Path="FondamentalAnalyse/FondamentalAnalyse.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +22,9 @@
       <Project Name="BondModeling" ConfigName="Debug"/>
       <Project Name="CouponBondValuation" ConfigName="Debug"/>
       <Project Name="SMA-EMA" ConfigName="Debug"/>
+      <Project Name="Volatility" ConfigName="Debug"/>
+      <Project Name="CorrelationTimeSeries" ConfigName="Debug"/>
+      <Project Name="FondamentalAnalyse" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +36,9 @@
       <Project Name="BondModeling" ConfigName="Release"/>
       <Project Name="CouponBondValuation" ConfigName="Release"/>
       <Project Name="SMA-EMA" ConfigName="Release"/>
+      <Project Name="Volatility" ConfigName="Release"/>
+      <Project Name="CorrelationTimeSeries" ConfigName="Release"/>
+      <Project Name="FondamentalAnalyse" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
